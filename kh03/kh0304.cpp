@@ -12,15 +12,6 @@ NOTE: This file is transcoded into UTF-8.
 *********************************/
 
 /*********************************
-非编程类作业在此处作答
+I say: "C++"		He says: "C++ is very interesting! "
+
 *********************************/
-
-
-/******程序类作业在下面作答******/
-#include <iostream>
-using namespace std;
-
-int main()
-{
-
-}
