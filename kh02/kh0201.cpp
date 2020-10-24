@@ -12,24 +12,15 @@ NOTE: This file is transcoded into UTF-8.
 *********************************/
 
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main()
 {
-	float a, b, c, p, s;
-	cout << "Calculating the area of a triangle." <<endl;
-	cout << "Enter the length of three edges, separated by a space: " << endl;
-	cin >> a >> b >> c;
-	p = (a + b + c)/2;
-	s = p*(p-a)*(p-b)*(p-c);
-	if (s <= 0.0f) 
-	{
-		cout << "Bad data." <<endl;
-		return -1;
-	}
-	s = sqrt(s);
-	cout << "The area of this triangle is "
-		<< s << "." << endl;
+	float a, b;
+	cout << "Calculating the area of a rectangle." <<endl
+		<< "Enter the length of two edges, separated by a space: " << endl;
+	cin >> a >> b;
+	cout << "The area of this rectangle is "
+		<< (a*b) << "." << endl;
 		return 0;
 }
