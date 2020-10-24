@@ -7,10 +7,6 @@
 修改履历：
 *********************************/
 
-/*********************************
-NOTE: This file is transcoded into UTF-8.
-*********************************/
-
 #include <iostream>
 using namespace std;
 
