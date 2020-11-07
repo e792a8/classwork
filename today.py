@@ -28,12 +28,12 @@ int main()
 '''
 
 folder = input("Work name: ")
+num = int(input("Number: "))
 os.mkdir(folder)
 os.chdir(folder)
-num = int(input("Number: "))
 
 for i in range(1,num+1):
 	fname = folder+("00"+str(i))[-2:]+".cpp"
-	f = open(folder+("00"+str(i))[-2:]+".cpp","a",encoding="utf-8")
+	f = open(fname,"a",encoding="utf-8")
 	f.write(md1+fname+md2+str(tm.tm_year)+"."+("00"+str(tm.tm_mon))[-2:]+"."+("00"+str(tm.tm_mday))[-2:]+md3)
 	f.close()
