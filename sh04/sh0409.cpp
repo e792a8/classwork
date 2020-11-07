@@ -1,7 +1,16 @@
+/*********************************
+文件名：sh0409.cpp
+题目：Hanoi(汉诺)塔问题。编程序打印出移动的步骤。
+姓名：周璨
+学号：200512134
+时间：2020.11.04
+修改履历：
+*********************************/
+
 #include <iostream>
 using namespace std;
 
-int calc(int n, int s, int d)
+long long calc(int n, int s, int d)
 {
 	if(n==1)
 	{
@@ -38,4 +47,3 @@ int main()
 		<< endl;
 	return 0;
 }
-
